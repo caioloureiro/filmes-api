@@ -1,7 +1,7 @@
 <template>
 
 	<div>
-		<pie-chart :data="chartData"></pie-chart>
+		<column-chart :data="chartData"></column-chart>
 	</div>
 	
 </template>
@@ -14,12 +14,7 @@ export default {
 		
 		return{
 			
-			chartData: {
-				
-				'Nokia': 150,
-				'Samsung': 120
-				
-			}
+			chartData: {}
 			
 		}
 		
@@ -30,8 +25,8 @@ export default {
 </script>
 
 <style scoped>
-p{
-color:red;
-border:1px solid red;
-}
+	p{
+		color:red;
+		border:1px solid red;
+	}
 </style>
